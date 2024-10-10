@@ -1,4 +1,3 @@
-````markdown
 # Technical Design Document for Image Processing System
 
 ## Table of Contents
@@ -81,7 +80,6 @@ const ProductSchema = new mongoose.Schema({
 const Product = mongoose.model("Product", ProductSchema);
 module.exports = Product;
 ```
-````
 
 ### Status Model
 
@@ -203,7 +201,3 @@ module.exports = Status;
 ## Conclusion
 
 This document outlines the architecture, components, and workflow of the image processing system. Each component's role and functionality have been detailed, ensuring a comprehensive understanding of how the system operates. This modular approach enables scalability and maintainability to handle multiple user requests efficiently.
-
-```
-
-```
